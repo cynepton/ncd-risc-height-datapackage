@@ -3,9 +3,9 @@
   "title": "NCD RisC average height per country data package",
   "resources": [
     {
-      "path": "archive/country-specific.csv",
+      "path": "archive/country_specific.csv",
       "pathType": "local",
-      "name": "country-specific",
+      "name": "country_specific",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "ISO-8859-9",
@@ -116,9 +116,9 @@
       }
     },
     {
-      "path": "archive/region-specific.csv",
+      "path": "archive/region_specific.csv",
       "pathType": "local",
-      "name": "region-specific",
+      "name": "region_specific",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "ISO-8859-1",
@@ -175,9 +175,9 @@
       }
     },
     {
-      "path": "data/country-specific.csv",
+      "path": "data/country_specific.csv",
       "pathType": "local",
-      "name": "country-specific",
+      "name": "country_specific",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "ISO-8859-9",
@@ -288,9 +288,9 @@
       }
     },
     {
-      "path": "data/region-specific.csv",
+      "path": "data/region_specific.csv",
       "pathType": "local",
-      "name": "region-specific",
+      "name": "region_specific",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "ISO-8859-1",
@@ -368,8 +368,8 @@
       "encoding": "UTF-8"
     }
   ],
-  "readme": "",
-  "description": "",
+  "readme": "# NCD RisC Average Height per Country Data Package",
+  "description": "# NCD RisC Average Height per Country Data Package",
   "licenses": [
     {
       "name": "ODC-PDDL",
