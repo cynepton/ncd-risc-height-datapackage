@@ -13,7 +13,7 @@ for key in sources:
 
     # Methods to process the data would be called on the data_list object here
 
-    fieldnames = [item for item in data_list[0]]
+    fieldnames = list(data_list[0])
 
     with open('data/{}.csv'.format(key), 'w', newline='') as data_file:
         writer = csv.DictWriter(data_file, fieldnames)
