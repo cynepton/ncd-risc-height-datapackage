@@ -1,0 +1,380 @@
+{
+  "name": "ncd-risc-height-datapackage",
+  "title": "NCD RisC average height per country data package",
+  "resources": [
+    {
+      "path": "archive/country-specific.csv",
+      "pathType": "local",
+      "name": "country-specific",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-9",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "archive/global.csv",
+      "pathType": "local",
+      "name": "global",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "archive/region-specific.csv",
+      "pathType": "local",
+      "name": "region-specific",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Region",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/country-specific.csv",
+      "pathType": "local",
+      "name": "country-specific",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-9",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/global.csv",
+      "pathType": "local",
+      "name": "global",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/region-specific.csv",
+      "pathType": "local",
+      "name": "region-specific",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Region",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Age group",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mean height",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height lower 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height upper 95% uncertainty interval",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Mean height standard error",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "scripts/download.py",
+      "pathType": "local",
+      "name": "download",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "scripts/process.py",
+      "pathType": "local",
+      "name": "process",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "pathType": "local",
+      "name": "__init__",
+      "format": "py",
+      "encoding": "UTF-8"
+    }
+  ],
+  "readme": "",
+  "description": "",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
