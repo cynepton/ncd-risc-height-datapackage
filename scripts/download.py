@@ -7,8 +7,8 @@ import urllib.request as request
 
 sources = {
     'global': 'https://www.ncdrisc.org/downloads/bmi_height/height/global/NCD_RisC_Lancet_2020_height_child_adolescent_global.csv',
-    'country-specific': 'https://www.ncdrisc.org/downloads/bmi_height/height/all_countries/NCD_RisC_Lancet_2020_height_child_adolescent_country.csv',
-    'region-specific': 'https://www.ncdrisc.org/downloads/bmi_height/height/regional/NCD_RisC_Lancet_2020_height_child_adolescent_region.csv'
+    'country_specific': 'https://www.ncdrisc.org/downloads/bmi_height/height/all_countries/NCD_RisC_Lancet_2020_height_child_adolescent_country.csv',
+    'region_specific': 'https://www.ncdrisc.org/downloads/bmi_height/height/regional/NCD_RisC_Lancet_2020_height_child_adolescent_region.csv'
 }
 
 for key, value in sources.items():

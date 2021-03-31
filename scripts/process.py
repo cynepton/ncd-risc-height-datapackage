@@ -2,7 +2,7 @@
 """
 import csv
 
-sources = ['global', 'country-specific', 'region-specific']
+sources = ['global', 'country_specific', 'region_specific']
 
 for key in sources:
     data_list = []
